@@ -24,8 +24,8 @@ btnRoll.addEventListener('click', function () {
 
   // Dispaly dice roll
   diceEl.classList.remove('hidden');
-  //   diceEl.src = `dice-${dice}.png`;
-  diceEl.src = `https://github.com/santhosh1sai/Pig-Game/blob/main/dice-${dice}.png`;
+  diceEl.src = `dice-${dice}.png`;
+  //diceEl.src = `https://github.com/santhosh1sai/Pig-Game/blob/main/dice-${dice}.png`;
 
   // check for rolled 1 switch player
   if (dice !== 1) {
